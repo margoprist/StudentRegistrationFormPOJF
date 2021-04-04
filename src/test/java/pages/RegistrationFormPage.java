@@ -1,4 +1,4 @@
-package fillinflow;
+package pages;
 
 import data.StudentData;
 
@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class RegistrationFormFillIn {
+public class RegistrationFormPage {
 
     StudentData student = new StudentData();
 

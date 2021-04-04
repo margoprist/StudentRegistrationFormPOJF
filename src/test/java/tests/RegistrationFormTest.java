@@ -1,11 +1,11 @@
-package testflow;
+package tests;
 
 import org.junit.jupiter.api.Test;
-import fillinflow.RegistrationFormFillIn;
+import pages.RegistrationFormPage;
 
 public class RegistrationFormTest {
 
-    RegistrationFormFillIn practiceFormPage = new RegistrationFormFillIn();
+    RegistrationFormPage practiceFormPage = new RegistrationFormPage();
 
 
     @Test
